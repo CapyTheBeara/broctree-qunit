@@ -10,7 +10,7 @@ var vendor = pickFiles('vendor', {
 var index = pickFiles('node_modules', {
   srcDir: '/broctree-qunit/lib',
   files: ['index.js'],
-  destDir: '/vendor/qunit'
+  destDir: '/vendor/testing'
 });
 
 module.exports = mergeTrees([vendor, index], { overwrite: true });

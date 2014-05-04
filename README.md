@@ -21,7 +21,7 @@ var qunit = require('broctree-qunit');
 ### Add QUnit to your testing index.html
 
 ```html
-<script src="vendor/qunit/index.js"></script>
+<script src="vendor/testing/index.js"></script>
 ```
 
 This will inject QUnit's `qunit.css` and `qunit.js`.
