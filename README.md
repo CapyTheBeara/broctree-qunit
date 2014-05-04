@@ -25,3 +25,7 @@ var qunit = require('broctree-qunit');
 ```
 
 This will inject QUnit's `qunit.css` and `qunit.js`.
+
+### Example
+
+https://github.com/monocle/ember-addon-blueprint
