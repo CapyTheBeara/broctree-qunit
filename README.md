@@ -7,7 +7,8 @@ An experimental Broccoli tree for QUnit
 ### Install the packages
 
 ```bash
-npm install qunitjs monocle/broctree-qunit --save-dev
+> bower install qunit
+> npm install monocle/broctree-qunit --save-dev
 ```
 
 ### Add the tree to your Brocfile

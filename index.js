@@ -1,8 +1,8 @@
 var pickFiles = require('broccoli-static-compiler');
 var mergeTrees  = require('broccoli-merge-trees');
 
-var vendor = pickFiles('node_modules', {
-  srcDir: '/qunitjs/qunit',
+var vendor = pickFiles('vendor', {
+  srcDir: '/qunit/qunit',
   files: ['qunit.css', 'qunit.js'],
   destDir: '/vendor/qunit'
 });
